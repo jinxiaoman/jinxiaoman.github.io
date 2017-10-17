@@ -4,7 +4,7 @@ title:      webstrom里的git操作
 subtitle:   webstrom工具学习
 date:       2017-10-17
 author:     jinxm
-header-img: img/post-bg-alibaba.jpg
+header-img: img/post-bg-2015.jpg
 catalog: true
 tags:
     - webstrom
