@@ -60,6 +60,8 @@ hash(#) 符号本来作用就是在URL中指示网页中的位置
 ` window.addEventListener("hashchange", funcRef, false)`
 3. 每次改变hash 都会在浏览器的访问历史中增加一个记录
 4. 这些特点，就可以用来实现前端路由"更新视图但不重新请求页面"的功能
+
+
 ##### HTML5History
 History interface是浏览器历史记录栈提供的接口，可以通过back（），forward（），go（）等方法，我们可以读取浏览器历史记录栈的信息，进行各种跳转操作。
 
@@ -121,7 +123,7 @@ hash模式仅改变hash部分的内容，而hash部分是不会包含在HTTP请�
 在此情况下重新向后端发送请求，如后端没有配置对应/user/id的路由处理，则会返回404错误。官方推荐的解决办法是在服务端增加一个覆盖所有情况的候选资源：如果 URL 匹配不到任何静态资源，则应该返回同一个 index.html 页面，这个页面就是你 app 依赖的页面。同时这么做以后，服务器就不再返回 404 错误页面，因为对于所有路径都会返回 index.html 文件。为了避免这种情况，在 Vue 应用里面覆盖所有的路由情况，然后在给出一个 404 页面。或者，如果是用 Node.js 作后台，可以使用服务端的路由来匹配 URL，当没有匹配到路由的时候返回 404，从而实现 fallback。
 
 # 实战篇
-引入路由
+## 引入路由
 ` import goods from 'components/goods/goods'; `
 定义路由
 ```
@@ -131,7 +133,7 @@ const routes = [
   { path: '/seller', component: seller }
 ];
 ```
-创建路由实例
+### 创建路由实例
 ```
 const router = new VueRouter({
   // ES6缩写语法，相当于routes:routes
@@ -143,7 +145,7 @@ const router = new VueRouter({
 
   关于 HTML5 history 模式的更多内容，可以参考官方文档：https://router.vuejs.org/zh-cn/essentials/history-mode.html
 ```
-创建vue实例并挂载
+#### 创建vue实例并挂载
 ```
 new Vue({
     el: '#app',
