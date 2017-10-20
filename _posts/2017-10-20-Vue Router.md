@@ -2,7 +2,7 @@
 layout:     post
 title:      Vue 路由实战
 subtitle:   客户端路由
-date:       2017- -
+date:       2017-10-20
 author:     jinxm
 header-img: img/post-bg-ios9-web.jpg
 catalog: true
