@@ -7,7 +7,7 @@ author:     jinxm
 header-img: img/post-bg-ios9-web.jpg
 catalog: true
 tags:
-    - vue
+    - Vue
     - 工作总结
 ---
 
