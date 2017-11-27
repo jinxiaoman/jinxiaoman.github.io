@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9224d29a-5f87-4609-a481-d45f791295cf" name="默认" comment="git 添加到版本管理">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/大道至简.md" afterPath="$PROJECT_DIR$/_posts/2017-11-27大道至简.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2017-11-27大道至简.md" afterPath="$PROJECT_DIR$/_posts/2017-11-27-大道至简.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -102,8 +101,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2017-11-27大道至简.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_posts/2017-11-27大道至简.md">
+      <file leaf-file-name="2017-11-27-大道至简.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2017-11-27-大道至简.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="304">
@@ -383,7 +382,7 @@
       <workItem from="1511519349670" duration="28000" />
       <workItem from="1511519411456" duration="21000" />
       <workItem from="1511519460543" duration="637000" />
-      <workItem from="1511792950165" duration="2773000" />
+      <workItem from="1511792950165" duration="2965000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1507613537858</created>
@@ -651,11 +650,18 @@
       <option name="project" value="LOCAL" />
       <updated>1511802382046</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="git 添加到版本管理">
+      <created>1511802577114</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1511802577114</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72047000" />
+    <option name="totallyTimeSpent" value="72239000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="233" y="38" width="1091" height="598" extended-state="0" />
@@ -1003,7 +1009,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2017-11-27大道至简.md">
+    <entry file="file://$PROJECT_DIR$/_posts/2017-11-27-大道至简.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="304">
